@@ -1,0 +1,4 @@
+model_checkpoint_path: "C:\\Users\\Rogan Inglis\\OneDrive\\Documents\\Machine Learning\\Bioinformatics\\mini_project\\model\\model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Rogan Inglis\\OneDrive\\Documents\\Machine Learning\\Bioinformatics\\mini_project\\log\\train\\model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Rogan Inglis\\OneDrive\\Documents\\Machine Learning\\Bioinformatics\\mini_project\\log\\test\\model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Rogan Inglis\\OneDrive\\Documents\\Machine Learning\\Bioinformatics\\mini_project\\model\\model.ckpt"
