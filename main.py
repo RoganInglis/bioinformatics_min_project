@@ -13,11 +13,11 @@ cwd = os.getcwd()
 save_loaction = cwd + '\\model\\model.ckpt'
 train_log_location = cwd + '\\log\\train\\'
 test_log_location = cwd + '\\log\\test\\'
-load_model = False
-train_model = True
-save_model = True
+load_model = True
+train_model = False
+save_model = False
 compute_final_accuracy = True
-clear_log = True
+clear_log = False
 create_confusion_matrix_plot = True
 
 if clear_log:
@@ -427,7 +427,7 @@ with tf.Session() as sess:
             plt.xlabel('Predicted Label')
             #plt.show()
             plt.savefig(
-                'C:/Users/Rogan Inglis/OneDrive/Documents/Machine Learning/Bioinformatics/mini_project/report/confusion_matrix.eps',
+                cwd,
                 format='eps', dpi=1000)
 
 
